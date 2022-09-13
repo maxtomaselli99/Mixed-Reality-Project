@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/59502650/why-is-air-tap-gesture-not-working-on-hololens1-in-my-unity-mrtk-app
+
+https://www.reddit.com/r/WindowsMR/comments/hyefeg/hololens_gestures_not_working/
+
+https://github.com/microsoft/MixedRealityToolkit-Unity/issues/4274

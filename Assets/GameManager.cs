@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject wave1, wave2, wave3, wave4, wave5;
-    [SerializeField] TMP_Text timer, round, score;
+    [SerializeField] TMP_Text timer, round, score, ammo;
     private GameObject[] targets;
     private int waveNum = 1;
     private bool waveCompleted = true;
@@ -81,5 +81,10 @@ public class GameManager : MonoBehaviour
     public void AddScore(int num)
     {
         Score += num;
+    }
+
+    public void AmmoCount(int mag, int magsize)
+    {
+        ammo.text = mag + "/" + magsize;
     }
 }

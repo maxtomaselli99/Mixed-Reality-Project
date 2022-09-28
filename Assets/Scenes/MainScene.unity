@@ -389,7 +389,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1353c3787589387479eeb33ddc5c4f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Model: {fileID: 1303245891}
+  child1: {fileID: 1303245891}
+  child2: {fileID: 1303245891}
 --- !u!4 &345691697
 Transform:
   m_ObjectHideFlags: 0
@@ -1215,6 +1216,7 @@ MonoBehaviour:
   timer: {fileID: 562151411}
   round: {fileID: 1988481325}
   score: {fileID: 87640963}
+  ammo: {fileID: 0}
 --- !u!4 &1185592381
 Transform:
   m_ObjectHideFlags: 0
